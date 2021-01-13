@@ -1,0 +1,16 @@
+{
+  "name": "game_store",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "main": "index.js",
+  "author": "felipe-zg <felipe_zeba@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
