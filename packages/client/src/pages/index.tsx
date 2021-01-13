@@ -5,8 +5,6 @@ type Props = {
   title: string
 }
 
-const foo = 'dhisds'
-
 export default function Home({ title = 'Typecript type' }: Props) {
   return (
     <div className={styles.container}>

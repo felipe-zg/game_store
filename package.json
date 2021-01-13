@@ -11,19 +11,11 @@
   "main": "index.js",
   "author": "felipe-zg <felipe_zeba@outlook.com>",
   "license": "MIT",
-  "scripts": {
-    "lint": "eslint packages/client/src  --max-warnings=0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint staged"
-    }
-  },
   "lint-staged": {
     "packages/client/src/**/*": "yarn lint --fix"
   },
   "devDependencies": {
-    "typescript": "^4.1.3",
-    "@game_store/eslint-config": "*"
+    "@game_store/eslint-config": "*",
+    "typescript": "^4.1.3"
   }
 }
