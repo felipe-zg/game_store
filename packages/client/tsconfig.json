@@ -11,7 +11,7 @@
     "noEmit": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "isolatedModules": false,
+    "isolatedModules": true,
     "jsx": "preserve"
   },
   "include": [
